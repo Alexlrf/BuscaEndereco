@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Endereço</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Busca Endereço</h1>
+    <form id="container">
+        <header>
+            <label for="cepInput" id="busca"><b>Digite o CEP</b></label><br>
+            <input type="text" name="cepInput" id="cepInput" maxlength="8">
+        </header>
+        <div>
+            <label for="cep">CEP</label><br>
+            <input type="text" name="cep" id="cep">            
+        </div>
+        <br>
+        <div>
+            <label for="logradouro">LOGRADOURO</label><br>
+            <input type="text" name="logradouro" id="logradouro">
+        </div>
+        <br>
+        <div>
+            <label for="bairro">BAIRRO</label><br>
+            <input type="text" name="bairro" id="bairro"> 
+        </div>
+        <br>        
+        <div>
+            <label for="localidade">CIDADE</label><br> 
+            <input type="text" name="localidade" id="localidade"> 
+        </div>
+        <br>
+        <div>
+            <label for="uf">ESTADO</label><br>  
+            <input type="text" name="uf" id="uf">
+        </div>
+        <br>
+        <div>
+            <input type="button"
+                 value="Buscar" 
+                 id="button" 
+                 onclick="buscar()"
+                 onmouseenter="seleciona()"
+                 onmouseout="sai()">
+        </div>        
+    </form>
+
+   <script src="script.js"></script>
+   
+   <footer>
+    <p><b><i>&copy; Desenvolvido por AlexLRF</b></i></p>
+   </footer>       
+</body>
+</html>

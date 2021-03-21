@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(118, 21, 131);
+    display: grid;    
+    justify-items: center;
+}
+
+h1{
+    color: rgb(245, 248, 244);
+}
+
+#busca{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+header{
+    margin-bottom: 30px;
+    
+}
+
+label{
+    color: white;
+    
+}
+
+#button{
+    border: none;
+    width: 150px;
+    background-color: whitesmoke;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+
+input{
+    border: none;
+    width: 30vw;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+#container{
+    justify-items: center;
+    display: grid;
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    background-color: rgb(79, 97, 109);
+}
